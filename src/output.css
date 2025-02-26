@@ -554,6 +554,7 @@ video {
   display: none;
 }
 
+<<<<<<< HEAD
 .my-\[2vh\] {
   margin-top: 2vh;
   margin-bottom: 2vh;
@@ -564,10 +565,13 @@ video {
   margin-bottom: ;
 }
 
+=======
+>>>>>>> 11bf7b33a04c594aad96fb00e01b20bccc55194d
 .flex {
   display: flex;
 }
 
+<<<<<<< HEAD
 .w-\[\] {
   width: ;
 }
@@ -621,6 +625,10 @@ video {
 
 .p-\[3vh\] {
   padding: 3vh;
+=======
+.gap-2 {
+  gap: 0.5rem;
+>>>>>>> 11bf7b33a04c594aad96fb00e01b20bccc55194d
 }
 
 .py-\[\] {
@@ -628,6 +636,7 @@ video {
   padding-bottom: ;
 }
 
+<<<<<<< HEAD
 .py-\[2vh\] {
   padding-top: 2vh;
   padding-bottom: 2vh;
@@ -678,12 +687,46 @@ video {
 
   .sm\:mb-\[10vh\] {
     margin-bottom: 10vh;
+=======
+.py-\[10px\] {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.text-\[22px\] {
+  font-size: 22px;
+}
+
+.text-\[\#2A254B\] {
+  --tw-text-opacity: 1;
+  color: rgb(42 37 75 / var(--tw-text-opacity, 1));
+}
+
+@media (min-width: 10px) {
+  .sm\:mx-\[10\%\] {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .sm\:mx-\[5\%\] {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .sm\:mt-\[\] {
+    margin-top: ;
+  }
+
+  .sm\:mt-\[20px\] {
+    margin-top: 20px;
+>>>>>>> 11bf7b33a04c594aad96fb00e01b20bccc55194d
   }
 
   .sm\:flex {
     display: flex;
   }
 
+<<<<<<< HEAD
   .sm\:hidden {
     display: none;
   }
@@ -734,5 +777,69 @@ video {
   .lg\:text-blue-600 {
     --tw-text-opacity: 1;
     color: rgb(37 99 235 / var(--tw-text-opacity, 1));
+=======
+  .sm\:w-\[40\%\] {
+    width: 40%;
+  }
+
+  .sm\:w-\[50\%\] {
+    width: 50%;
+  }
+
+  .sm\:w-\[4\%\] {
+    width: 4%;
+  }
+
+  .sm\:w-\[45\%\] {
+    width: 45%;
+  }
+
+  .sm\:w-\[47\%\] {
+    width: 47%;
+  }
+
+  .sm\:w-\[48\%\] {
+    width: 48%;
+  }
+
+  .sm\:flex-col {
+    flex-direction: column;
+  }
+
+  .sm\:flex-wrap {
+    flex-wrap: wrap;
+  }
+
+  .sm\:justify-between {
+    justify-content: space-between;
+  }
+
+  .sm\:gap-\[10px\] {
+    gap: 10px;
+  }
+
+  .sm\:gap-2 {
+    gap: 0.5rem;
+  }
+
+  .sm\:px-\[10\%\] {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .sm\:px-\[\] {
+    padding-left: ;
+    padding-right: ;
+  }
+
+  .sm\:px-\[5\%\] {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .sm\:text-\[\#2A254B\] {
+    --tw-text-opacity: 1;
+    color: rgb(42 37 75 / var(--tw-text-opacity, 1));
+>>>>>>> 11bf7b33a04c594aad96fb00e01b20bccc55194d
   }
 }
