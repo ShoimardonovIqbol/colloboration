@@ -554,17 +554,20 @@ video {
   display: none;
 }
 
-.flex {
-  display: flex;
+.hidden {
+  display: none;
 }
 
-.gap-2 {
-  gap: 0.5rem;
+.gap-\[\] {
+  gap: ;
 }
 
-.py-\[\] {
-  padding-top: ;
-  padding-bottom: ;
+.gap-\[10px\] {
+  gap: 10px;
+}
+
+.gap-\[13px\] {
+  gap: 13px;
 }
 
 .py-\[10px\] {
@@ -582,18 +585,9 @@ video {
 }
 
 @media (min-width: 10px) {
-  .sm\:mx-\[10\%\] {
-    margin-left: 10%;
-    margin-right: 10%;
-  }
-
   .sm\:mx-\[5\%\] {
     margin-left: 5%;
     margin-right: 5%;
-  }
-
-  .sm\:mt-\[\] {
-    margin-top: ;
   }
 
   .sm\:mt-\[20px\] {
@@ -602,26 +596,6 @@ video {
 
   .sm\:flex {
     display: flex;
-  }
-
-  .sm\:w-\[40\%\] {
-    width: 40%;
-  }
-
-  .sm\:w-\[50\%\] {
-    width: 50%;
-  }
-
-  .sm\:w-\[4\%\] {
-    width: 4%;
-  }
-
-  .sm\:w-\[45\%\] {
-    width: 45%;
-  }
-
-  .sm\:w-\[47\%\] {
-    width: 47%;
   }
 
   .sm\:w-\[48\%\] {
@@ -640,22 +614,12 @@ video {
     justify-content: space-between;
   }
 
-  .sm\:gap-\[10px\] {
-    gap: 10px;
-  }
-
   .sm\:gap-2 {
     gap: 0.5rem;
   }
 
-  .sm\:px-\[10\%\] {
-    padding-left: 10%;
-    padding-right: 10%;
-  }
-
-  .sm\:px-\[\] {
-    padding-left: ;
-    padding-right: ;
+  .sm\:gap-\[10px\] {
+    gap: 10px;
   }
 
   .sm\:px-\[5\%\] {
@@ -664,6 +628,67 @@ video {
   }
 
   .sm\:text-\[\#2A254B\] {
+    --tw-text-opacity: 1;
+    color: rgb(42 37 75 / var(--tw-text-opacity, 1));
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:mb-\[10px\] {
+    margin-bottom: 10px;
+  }
+
+  .lg\:mt-\[100px\] {
+    margin-top: 100px;
+  }
+
+  .lg\:mt-\[10px\] {
+    margin-top: 10px;
+  }
+
+  .lg\:block {
+    display: block;
+  }
+
+  .lg\:flex {
+    display: flex;
+  }
+
+  .lg\:hidden {
+    display: none;
+  }
+
+  .lg\:w-\[50\%\] {
+    width: 50%;
+  }
+
+  .lg\:flex-col {
+    flex-direction: column;
+  }
+
+  .lg\:flex-nowrap {
+    flex-wrap: nowrap;
+  }
+
+  .lg\:gap-2 {
+    gap: 0.5rem;
+  }
+
+  .lg\:px-\[5\%\] {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .lg\:py-\[10px\] {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .lg\:text-\[22px\] {
+    font-size: 22px;
+  }
+
+  .lg\:text-\[\#2A254B\] {
     --tw-text-opacity: 1;
     color: rgb(42 37 75 / var(--tw-text-opacity, 1));
   }
